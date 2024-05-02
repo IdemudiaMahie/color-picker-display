@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    height: inherit;
+    font-size: 4rem;
+    border: 2px solid gray;
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 1rem rgba(128, 128, 128, 0.384);
+    background-color: rgba(250, 235, 215, 0.281);
+    padding: 1rem;
+}
+
+input::placeholder {
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    bottom: 1rem;
+}
